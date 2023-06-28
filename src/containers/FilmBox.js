@@ -35,7 +35,7 @@ const FilmBox = () => {
 
     return(
         <>
-        <h1>Film Box</h1>
+        
         <FilmList films={films}/>
         <FilmLink/>
         </>

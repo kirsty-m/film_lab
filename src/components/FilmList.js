@@ -1,5 +1,6 @@
 import React from 'react';
 import Film from '../components/Film'
+import '../App.css';
 
 const FilmList = ({films}) => {
 
@@ -9,14 +10,13 @@ const FilmList = ({films}) => {
             <Film name={film.name} key={film.id} url={film.url}></Film>
             </>
         )
-      
     })
 
     return (
-        <>
-        <h3>Film List:</h3>
+        <div>
+        <h3>Upcoming Film releases for UK:</h3>
         {filmNodes}
-        </>
+        </div>
     )
 };
 
