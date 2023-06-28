@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import FilmList from '../components/FilmList'
+import FilmLink from '../components/FilmLink'
 
 const FilmBox = () => {
 
@@ -36,6 +37,7 @@ const FilmBox = () => {
         <>
         <h1>Film Box</h1>
         <FilmList films={films}/>
+        <FilmLink/>
         </>
     )
 };
